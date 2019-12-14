@@ -16,12 +16,13 @@ a {
 .main {
     position: fixed;
     height: 100%;
-    width: 100%
+    width: 100%;
+    margin: 15% 15% 0 7%;
+    width: 86%
 }
 
 .main .mainContent {
     color: #000;
-    margin: 15% 15% 0 7%
 }
 
 .main .mainContent .top {
@@ -35,9 +36,6 @@ a {
 }
 
 .main .contactInfo {
-    margin-left: 7%;
-    margin-top: 7px;
-    width: 93%;
     display: inline-block
 }
 
@@ -47,6 +45,10 @@ a {
     font-size: 30px;
     font-weight: 300;
     cursor: pointer
+}
+
+.main .textSection {
+    margin: 0% 0% 7% 0%;
 }
 
 @media only screen and (max-device-width:1000px) {
